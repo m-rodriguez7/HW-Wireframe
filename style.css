@@ -1,0 +1,68 @@
+body {
+    width: 960px;
+    background-color: #777;
+    text-align: center;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.box {
+    background-color: #ebebeb;
+    color: #767676
+}
+
+header {
+    padding: 10px;
+    margin-bottom: 8px;
+}
+
+nav {
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+section {
+    float: left;
+    width: 495px;
+    padding-top: 10px;
+    margin-bottom: 15px;
+}
+
+article {
+    background-color: #767676;
+    padding: 5px;
+    margin: 10px;
+}
+
+#whitetext {
+    color: #ebebeb;
+}
+
+
+#clear {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* use chrome dev tools to match pixel sizes! */
+
+.inner {
+    padding: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+aside {
+    width: 445px;
+    height: 250px;
+    padding-top: 14px;
+    float: left;
+    margin-left: 18px;
+
+}
+
+footer {
+    clear: both;
+    padding: 15px;
+}
